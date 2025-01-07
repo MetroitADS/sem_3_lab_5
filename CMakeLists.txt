@@ -28,7 +28,7 @@ else ()
 endif ()
 
 # К сожалению, вплоть до C++20 https://en.cppreference.com/w/cpp/numeric/constants
-# нет удобного кроссплатформенного способа получить число pi.
+# нет удобного кроссплатформенного способа получить число pi.2
 # define ниже нужен для включения M_PI
 if (MSVC)
     add_definitions(-D_USE_MATH_DEFINES)
